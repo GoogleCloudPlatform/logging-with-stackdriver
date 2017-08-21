@@ -1,0 +1,82 @@
+[2017/May/16|23:32:22] Reading configuration from "/usr/ChaosGroup/V-Ray/Standalone_for_linux_x64/bin/linux_x64/gcc-4.4//vrayconfig.xml"
+[2017/May/16|23:32:22] ===============================================
+[2017/May/16|23:32:22] V-Ray Standalone, version 3.50.03 for x64
+[2017/May/16|23:32:22] Copyright (C) 2000-2017 Chaos Group Ltd. All rights reserved.
+[2017/May/16|23:32:22] Use -credits option for additional third-party copyright notices.
+[2017/May/16|23:32:22] 
+[2017/May/16|23:32:22] Build d8e9960d from Feb  7 2017, 21:25:33
+[2017/May/16|23:32:22] Compiled with GCC-compatible compiler, version 4.4
+[2017/May/16|23:32:22] Operating system is Linux
+[2017/May/16|23:32:22] 
+[2017/May/16|23:32:22] V-Ray core version is 3.25.01
+[2017/May/16|23:32:22] ===============================================
+[2017/May/16|23:32:22] 
+[2017/May/16|23:32:22] Loading plugins from "/usr/ChaosGroup/V-Ray/Standalone_for_linux_x64/bin/linux_x64/gcc-4.4/plugins/libvray_*.so"
+info:  Loaded "/usr/ChaosGroup/V-Ray/Standalone_for_linux_x64/lib/linux_x64/gcc-4.4/libvraymdl.so"
+info:  MDL SDK 2016.3, build 278300.4305, 29 Nov 2016, linux-x86-64-gcc4
+info:  Loaded library "/usr/ChaosGroup/V-Ray/Standalone_for_linux_x64/lib/linux_x64/gcc-4.4/libvrayfreeimage.so".
+[2017/May/16|23:32:22] 83 plugin(s) loaded successfully
+[2017/May/16|23:32:22] Finished loading plugins.
+[2017/May/16|23:32:22] Reading scene file "/home/user/sphere_test.vrscene"
+[2017/May/16|23:32:22] /home/user/sphere_test.vrscene: done [ 0h  0m  0.0s]
+[2017/May/16|23:32:22] Scene file parsed successfully in 0.0 s.
+[2017/May/16|23:32:22] warning: Unknown property "render_mask_clear" in object "vraySettingsImageSampler"
+[2017/May/16|23:32:22] warning: Unknown property "display_srgb" in object "vraySettingsVFB"
+[2017/May/16|23:32:22] Scene created successfully.
+[2017/May/16|23:32:22] Objects in scene: 89
+[2017/May/16|23:32:22] Starting render sequence.
+[2017/May/16|23:32:22] Preparing renderer...
+[2017/May/16|23:32:22] Using Intel Embree ray server
+[2017/May/16|23:32:22] Creating texture cache with size 4000 MB
+[2017/May/16|23:32:22] Creating bitmap manager
+[2017/May/16|23:32:22] Preparing scene for rendering...: done [ 0h  0m  0.0s]
+[2017/May/16|23:32:22] 1 lights found.
+[2017/May/16|23:32:22] Using probabilistic light evaluation with 8 lights.
+[2017/May/16|23:32:22] Max ray intensity is enabled: rendered result may have incorrect brightness.
+[2017/May/16|23:32:22] ========================
+[2017/May/16|23:32:22] Starting frame 1.
+[2017/May/16|23:32:22] Dome light resolution increased from 512 to 2048 for light "VRayLightDomeShape1"
+[2017/May/16|23:32:22] warning: Bitmap file "/usr/local/google/home/user/arf.hdr" failed to load: file does not exist
+[2017/May/16|23:32:22] Preparing scene for frame...: done [ 0h  0m  0.0s]
+[2017/May/16|23:32:22] Compiling geometry...: done [ 0h  0m  0.0s]
+[2017/May/16|23:32:22] Using embree ray tracing.
+[2017/May/16|23:32:22] Building embree static trees took 19 milliseconds
+[2017/May/16|23:32:22] Building embree static accelerator ...: done [ 0h  0m  0.0s]
+[2017/May/16|23:32:22] Start progressive rendering, server mode 0, perform rendering 1
+[2017/May/16|23:32:22] Progressive sampling base buffer memory usage: 16.06 MB
+[2017/May/16|23:32:22] Additional progressive sampling filter buffers memory usage: 188.13 MB
+[2017/May/16|23:32:23] Rendering image (pass 0):  1.00% [ 0h  0m  0.2s] [ 0h  0m 21.4s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:23] Rendering image (pass 0):  1.00% [ 0h  0m  0.4s] [ 0h  0m 41.2s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:23] Rendering image (pass 0):  1.00% [ 0h  0m  0.6s] [ 0h  1m  1.1s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:23] Rendering image (pass 0):  1.00% [ 0h  0m  0.8s] [ 0h  1m 21.2s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:23] Rendering image (pass 0):  1.00% [ 0h  0m  1.0s] [ 0h  1m 41.5s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:24] Rendering image (pass 0):  1.00% [ 0h  0m  1.2s] [ 0h  2m  1.3s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:24] Rendering image (pass 0):  2.00% [ 0h  0m  1.4s] [ 0h  1m 10.3s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:24] Rendering image (pass 0):  2.00% [ 0h  0m  1.6s] [ 0h  1m 20.1s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:24] Rendering image (pass 0):  3.00% [ 0h  0m  1.8s] [ 0h  0m 59.3s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:24] Rendering image (pass 0):  3.00% [ 0h  0m  2.0s] [ 0h  1m  5.8s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:25] Rendering image (pass 0):  3.00% [ 0h  0m  2.2s] [ 0h  1m 12.3s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:25] Rendering image (pass 0):  3.00% [ 0h  0m  2.4s] [ 0h  1m 18.8s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:25] Rendering image (pass 0):  4.00% [ 0h  0m  2.6s] [ 0h  1m  3.3s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:25] Rendering image (pass 0):  4.00% [ 0h  0m  2.8s] [ 0h  1m  8.1s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:25] Rendering image (pass 0):  5.00% [ 0h  0m  3.0s] [ 0h  0m 57.9s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:26] Rendering image (pass 0):  5.00% [ 0h  0m  3.3s] [ 0h  1m  1.8s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:26] Rendering image (pass 0):  5.00% [ 0h  0m  3.5s] [ 0h  1m  5.6s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:26] Rendering image (pass 0):  5.00% [ 0h  0m  3.7s] [ 0h  1m  9.4s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:26] Rendering image (pass 0):  5.00% [ 0h  0m  3.9s] [ 0h  1m 13.2s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:26] Rendering image (pass 0):  5.00% [ 0h  0m  4.1s] [ 0h  1m 17.0s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:26] Noise threshold lowered to 0.142857 with 0.0 percent active pixels.
+[2017/May/16|23:32:27] Rendering image (pass 0):  5.00% [ 0h  0m  4.3s] [ 0h  1m 20.9s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:27] Rendering image (pass 0):  5.00% [ 0h  0m  4.5s] [ 0h  1m 24.7s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:27] Noise threshold lowered to 0.090909 with 0.0 percent active pixels.
+[2017/May/16|23:32:27] Rendering image (pass 0):  5.00% [ 0h  0m  4.7s] [ 0h  1m 28.5s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:27] Rendering image (pass 0):  5.00% [ 0h  0m  4.9s] [ 0h  1m 32.5s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:27] Noise threshold lowered to 0.052632 with 0.0 percent active pixels.
+[2017/May/16|23:32:27] Rendering image (pass 0):  5.00% [ 0h  0m  5.1s] [ 0h  1m 36.4s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:28] Rendering image (pass 0):  5.00% [ 0h  0m  5.3s] [ 0h  1m 40.4s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:28] Rendering image (pass 0):  5.00% [ 0h  0m  5.5s] [ 0h  1m 44.3s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:28] Noise threshold lowered to 0.028571 with 0.0 percent active pixels.
+[2017/May/16|23:32:28] Rendering image (pass 0):  5.00% [ 0h  0m  5.7s] [ 0h  1m 48.3s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:28] Rendering image (pass 0):  5.00% [ 0h  0m  5.9s] [ 0h  1m 52.1s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:28] Noise threshold lowered to 0.014925 with 0.0 percent active pixels.
+[2017/May/16|23:32:28] Rendering image (pass 0):  5.00% [ 0h  0m  6.1s] [ 0h  1m 55.9s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:29] Rendering image (pass 0):  5.00% [ 0h  0m  6.3s] [ 0h  1m 59.7s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:29] Final noise threshold set: 0.010000
+[2017/May/16|23:32:29] Rendering image (pass 0):  5.00% [ 0h  0m  6.5s] [ 0h  2m  3.6s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:29] Rendering image (pass 0):  5.00% [ 0h  0m  6.7s] [ 0h  2m  7.4s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:29] Rendering image (pass 0):  5.00% [ 0h  0m  6.9s] [ 0h  2m 11.2s est] [0 MB resman] [0 MB texman][2017/May/16|23:32:29] Progressive rendering finished: specified noise level reached
+[2017/May/16|23:32:29] Sampling level reached: 1.00 subdivs (1 passes)
+[2017/May/16|23:32:29] Rendering image (pass 0): done [ 0h  0m  7.0s]
+[2017/May/16|23:32:29] Number of raycasts: 530944 (1.02 per pixel)
+[2017/May/16|23:32:29]   Camera rays: 530944 (1.02 per pixel)
+[2017/May/16|23:32:29]   Shadow rays: 0 (0.00 per pixel)
+[2017/May/16|23:32:29]   GI rays: 0 (0.00 per pixel)
+[2017/May/16|23:32:29]   Reflection rays: 0 (0.00 per pixel)
+[2017/May/16|23:32:29]   Refraction rays: 0 (0.00 per pixel)
+[2017/May/16|23:32:29]   Unshaded rays: 0 (0.00 per pixel)
+[2017/May/16|23:32:29] Number of light evaluations: 530944 (1.02 per pixel)
+[2017/May/16|23:32:29] Number of intersectable primitives: 18681
+[2017/May/16|23:32:29]   SD triangles: 18680
+[2017/May/16|23:32:29]   MB triangles: 0
+[2017/May/16|23:32:29]   Static primitives: 0
+[2017/May/16|23:32:29]   Moving primitives: 0
+[2017/May/16|23:32:29]   Infinite primitives: 1
+[2017/May/16|23:32:29]   Static hair segments: 0
+[2017/May/16|23:32:29]   Moving hair segments: 0
+[2017/May/16|23:32:29] Successfully written image file "images/sphere_dof_v01.png"
+[2017/May/16|23:32:29] Frame took 7.17 s.
+[2017/May/16|23:32:29] Cleaning up bitmap manager
+[2017/May/16|23:32:29] Cleaning up texture cache
+[2017/May/16|23:32:30] Closing log - 0 error(s), 3 warning(s).
+[2017/May/16|23:32:30] Issues Report:
+[2017/May/16|23:32:30]   Warnings:
+[2017/May/16|23:32:30]     Unknown property "render_mask_clear" in object "vraySettingsImageSampler"
+[2017/May/16|23:32:30]     Unknown property "display_srgb" in object "vraySettingsVFB"
+[2017/May/16|23:32:30]     Bitmap file "arf.hdr" failed to load: file does not exist
