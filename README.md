@@ -3,18 +3,18 @@
 Use Google Stackdriver Logging instead of a logging server for
 application-specific logging.
 
-Code for solution _Using Stackdriver as a logging server for a VFX rendering pipeline._
+Code for solution [Using Stackdriver as a logging server for a VFX rendering pipeline.](https://cloud.google.com/solutions/using-stackdriver-as-logging-server-for-vfx-rendering-pipeline).
 
 ## Install
 ```sh
 cd ~/git
-git clone http://github.com/google/logging-with-stackdriver
+git clone http://github.com/GoogleCloudPlatform/logging-with-stackdriver
 ```
 
 ## Usage
 
-Refer to solution _Using Stackdriver as a logging server for a VFX rendering
-pipeline_ for installation and usage.
+Refer to solution [Using Stackdriver as a logging server for a VFX rendering
+pipeline](https://cloud.google.com/solutions/using-stackdriver-as-logging-server-for-vfx-rendering-pipeline) for installation and usage.
 
 ## License
 
